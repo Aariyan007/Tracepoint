@@ -8,7 +8,7 @@ class Logger {
         this.level = levels[config.LOG_LEVEL];
     }
     log(levelName, message, meta = {}) {
-        if (levels[levelName] < this.level) {
+        if (levels[levelName] > this.level) {
             return;
         }
         const entry = {
@@ -23,7 +23,7 @@ class Logger {
         }
     }
     info(msg, meta = {}) {
-        this.log("info", msg, meta);
+        this.log("INFO", msg, meta);
     }
     warn(msg, meta) {
         this.log("WARN", msg, meta);

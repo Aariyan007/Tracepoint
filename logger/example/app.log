@@ -1,0 +1,7 @@
+{"time":"2026-03-01T11:46:52.247Z","service":"MyApp","level":"info","message":"This is an info message"}
+{"time":"2026-03-01T11:48:53.835Z","service":"MyApp","level":"INFO","message":"This is an info message"}
+{"time":"2026-03-01T11:48:53.862Z","service":"MyApp","level":"WARN","message":"This is a warning"}
+{"time":"2026-03-01T11:48:53.862Z","service":"MyApp","level":"ERROR","message":"DB connection failed"}
+{"time":"2026-03-01T12:38:32.661Z","service":"MyApp","level":"INFO","message":"This is an info message"}
+{"time":"2026-03-01T12:38:32.687Z","service":"MyApp","level":"WARN","message":"This is a warning"}
+{"time":"2026-03-01T12:38:32.688Z","service":"MyApp","level":"ERROR","message":"DB connection failed"}
