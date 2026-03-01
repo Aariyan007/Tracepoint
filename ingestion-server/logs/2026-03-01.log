@@ -1,1 +1,4 @@
 {"time":"2026-03-01T12:10:00Z","service":"auth-service","level":"ERROR","message":"DB failed"}
+{"time":"2026-03-01T19:45:38.395Z","service":"MyApp","level":"INFO","message":"This is an info message"}
+{"time":"2026-03-01T19:45:38.426Z","service":"MyApp","level":"WARN","message":"This is a warning"}
+{"time":"2026-03-01T19:45:38.427Z","service":"MyApp","level":"ERROR","message":"DB connection failed"}
