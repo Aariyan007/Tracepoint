@@ -1,6 +1,7 @@
 const express = require("express");
 const validateLog = require("./validate");
 const RateLimiter = require("./rateLimiter");
+const storeLog = require("./storage");
 const app = express();
 const PORT = 4000;
 
@@ -29,7 +30,8 @@ app.post('/logs',(req,res)=>{
     if(!limiter.allow()){
         return res.status(429).json({error:"Rate limit exceeded"});
     }
-    console.log("Accepted log:", log);
+    // console.log("Accepted log:", log);
+    storeLog(log);
     res.status(200).json({message:"Log received"});
 })
 
